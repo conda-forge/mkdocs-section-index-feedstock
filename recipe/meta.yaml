@@ -21,7 +21,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - mkdocs >=1.2
+    - mkdocs >=1.2,<=1.6.1
+    - properdocs >=1.6.5
 
 test:
   imports:
