@@ -1,5 +1,5 @@
 {% set name = "mkdocs-section-index" %}
-{% set version = "0.3.10" %}
+{% set version = "0.3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mkdocs_section_index-{{ version }}.tar.gz
-  sha256: a82afbda633c82c5568f0e3b008176b9b365bf4bd8b6f919d6eff09ee146b9f8
+  sha256: 285635bf86c643b0fc7a343053d7a818049817bff4408f52b80c4367bd5e7268
 
 build:
   noarch: python
